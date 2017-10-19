@@ -1,0 +1,6 @@
+[submodule "bulma"]
+	path = bulma
+	url = https://github.com/sayaamiruladli/bulma.git
+[submodule "bulma-divider"]
+	path = bulma-divider
+	url = https://github.com/Wikiki/bulma-divider.git
