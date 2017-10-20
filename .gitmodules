@@ -4,3 +4,6 @@
 [submodule "bulma-divider"]
 	path = bulma-divider
 	url = https://github.com/Wikiki/bulma-divider.git
+[submodule "bulma-steps"]
+	path = bulma-steps
+	url = https://github.com/Wikiki/bulma-steps.git
