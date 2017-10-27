@@ -7,3 +7,6 @@
 [submodule "bulma-steps"]
 	path = bulma-steps
 	url = https://github.com/Wikiki/bulma-steps.git
+[submodule "bulma-calendar"]
+	path = bulma-calendar
+	url = https://github.com/Wikiki/bulma-calendar.git
