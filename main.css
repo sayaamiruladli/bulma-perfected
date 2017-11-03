@@ -122,3 +122,11 @@ body {
 {
     cursor: pointer;
 }
+
+.flexdatalist-multiple li.input-container, .flexdatalist-multiple li.input-container input {
+  border: none !important;
+  width: 50% !important;
+  height: auto !important;
+  padding: 0 0 0 4px !important;
+  line-height: 24px !important;
+}

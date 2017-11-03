@@ -1,6 +1,6 @@
 [submodule "bulma"]
 	path = bulma
-	url = https://github.com/sayaamiruladli/bulma.git
+	url = https://github.com/vortechron/bulma.git
 [submodule "bulma-divider"]
 	path = bulma-divider
 	url = https://github.com/Wikiki/bulma-divider.git
@@ -10,3 +10,18 @@
 [submodule "bulma-calendar"]
 	path = bulma-calendar
 	url = https://github.com/Wikiki/bulma-calendar.git
+[submodule "bulma-pageloader"]
+	path = bulma-pageloader
+	url = https://github.com/Wikiki/bulma-pageloader.git
+[submodule "bulma-badge"]
+	path = bulma-badge
+	url = https://github.com/Wikiki/bulma-badge.git
+[submodule "bulma-pricingtable"]
+	path = bulma-pricingtable
+	url = https://github.com/Wikiki/bulma-pricingtable.git
+[submodule "bulma-timeline"]
+	path = bulma-timeline
+	url = https://github.com/Wikiki/bulma-timeline.git
+[submodule "bulma-quickview"]
+	path = bulma-quickview
+	url = https://github.com/Wikiki/bulma-quickview.git
