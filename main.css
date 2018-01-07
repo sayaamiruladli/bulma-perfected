@@ -104,29 +104,42 @@ background-size: 1800% 1800%;
     animation: rainbow 10s ease infinite;
 }
 
-/* extra */
-
-body {
-  background: url('../img/38278er87b9fe87b9c89b7t.jpg');
-}
-
-/* helper */
-
-.has-line-pointer
-{
-  text-decoration: underline; 
-  cursor: pointer;
-}
-
-.is-pointer
-{
-    cursor: pointer;
-}
-
 .flexdatalist-multiple li.input-container, .flexdatalist-multiple li.input-container input {
   border: none !important;
   width: 50% !important;
   height: auto !important;
   padding: 0 0 0 4px !important;
   line-height: 24px !important;
+}
+
+/* vue */
+
+[v-cloak] > * { display:none; } 
+[v-cloak]::before {  
+  content: " "; 
+  display: block; 
+} 
+
+.ghost {
+  opacity: 0.5;
+}
+
+/* set fonts */
+
+@font-face {
+    font-family: "Bariol";
+    src: url("//assets.hellogustav.com/fonts/bariol_regular-webfont.woff2") format("woff2"), url("//assets.hellogustav.com/fonts/bariol_regular-webfont.woff") format("woff"), url("//assets.hellogustav.com/fonts/bariol_regular-webfont.ttf") format("truetype"), url("//assets.hellogustav.com/fonts/bariol_regular-webfont.svg") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Bariol";
+    src: url("//assets.hellogustav.com/fonts/bariol_bold-webfont.woff2") format("woff2"), url("//assets.hellogustav.com/fonts/bariol_bold-webfont.woff") format("woff"), url("//assets.hellogustav.com/fonts/bariol_bold-webfont.ttf") format("truetype"), url("//assets.hellogustav.com/fonts/bariol_bold-webfont.svg") format("svg");
+    font-weight: bold;
+    font-style: normal
+}
+
+* {
+  font-family: "Bariol";
 }
