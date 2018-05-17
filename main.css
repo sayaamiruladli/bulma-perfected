@@ -127,19 +127,118 @@ background-size: 1800% 1800%;
 /* set fonts */
 
 @font-face {
+    font-family: "GT Eesti";
+    src:  url("/vendor/omni/css/fonts/GT-Eesti-Text-Book.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "GT Eesti";
+    src:  url("/vendor/omni/css/fonts/GT-Eesti-Display-Medium.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal
+}
+
+/* @font-face {
     font-family: "Bariol";
-    src: url("//assets.hellogustav.com/fonts/bariol_regular-webfont.woff2") format("woff2"), url("//assets.hellogustav.com/fonts/bariol_regular-webfont.woff") format("woff"), url("//assets.hellogustav.com/fonts/bariol_regular-webfont.ttf") format("truetype"), url("//assets.hellogustav.com/fonts/bariol_regular-webfont.svg") format("svg");
+    src: url("/vendor/omni/css/fonts/bariol_regular-webfont.woff2") format("woff2"), url("/vendor/omni/css/fonts/bariol_regular-webfont.woff") format("woff"), url("/vendor/omni/css/fonts/bariol_regular-webfont.ttf") format("truetype"), url("/vendor/omni/css/fonts/bariol_regular-webfont.svg") format("svg");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: "Bariol";
-    src: url("//assets.hellogustav.com/fonts/bariol_bold-webfont.woff2") format("woff2"), url("//assets.hellogustav.com/fonts/bariol_bold-webfont.woff") format("woff"), url("//assets.hellogustav.com/fonts/bariol_bold-webfont.ttf") format("truetype"), url("//assets.hellogustav.com/fonts/bariol_bold-webfont.svg") format("svg");
+    src: url("/vendor/omni/css/fonts/bariol_bold-webfont.woff2") format("woff2"), url("/vendor/omni/css/fonts/bariol_bold-webfont.woff") format("woff"), url("/vendor/omni/css/fonts/bariol_bold-webfont.ttf") format("truetype"), url("/vendor/omni/css/fonts/bariol_bold-webfont.svg") format("svg");
     font-weight: bold;
     font-style: normal
-}
+} */
 
 * {
-  font-family: "Bariol";
+  font-family: "GT Eesti";
+}
+
+/* fix mobile columns and card */
+
+@media (max-width: 576px){
+    .columns {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .columns .column {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+.fade-enter-active {
+  transition: opacity .5s;
+}
+.fade-leave-active {
+  transition: opacity .1s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.slider {
+    width: auto;
+}
+
+.slick-slide {
+    background: $c1;
+    color: white;
+    font-size: 30px;
+    font-family: "Arial", "Helvetica";
+    text-align: center;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: black;    
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-slide:nth-child(odd) {
+     background: $c2;
+}
+
+.slick-dots li button:before {
+    font-size: 38px;
+}
+
+.component-container {
+    background-color: rgb(255, 255, 255);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.submenu {
+    height: auto;
+    min-height: 0.4em;
+    padding-bottom: 10px;
+}
+
+.modal-card-head, .modal-card-foot {
+    background-color: white;
+    border-radius: 0;
+}
+
+.modal-card-title {
+    font-size: 1.1rem;
 }
