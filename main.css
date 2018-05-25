@@ -228,6 +228,10 @@ body {
     justify-content: center;
 }
 
+.component-container .hero {
+    width: 100%;
+}
+
 .submenu {
     height: auto;
     min-height: 0.4em;
